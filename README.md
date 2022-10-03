@@ -46,7 +46,7 @@ Use the browsers search function (CTRL+F or CMD+F) to find things.
   
 * `Image > Duplicate` (menu)
   * `(Right-click on Layer) > Duplicate Layer` (popup menu)
-  * `Tools > Utilties > Duplicate current timepoint` (https://www.napari-hub.org/plugins/napari-skimage-regionprops)
+  * `Tools > Utilties > Duplicate current timepoint` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-skimage-regionprops))
 
 * `Image > Stacks > Stack to Hyperstack` (menu)
   * `Tools > Utilities > Convert 3D stack to 2D timelapse` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-time-slicer))
