@@ -6,6 +6,8 @@ The dictionary lists things alphabetically in this form as
 
 * ImageJ / Fiji thing (menu)
   * Napari thing (menu, plugin)
+  
+Use the browsers search function (CTRL+F or CMD+F) to find things.
 
 ## Dictionary
 
