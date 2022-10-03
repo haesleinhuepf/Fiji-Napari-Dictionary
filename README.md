@@ -10,9 +10,13 @@ The dictionary lists things alphabetically in this form as
 ## Dictionary
 
 * `Analyze > Analyze Particles` (menu)
+  * `Plugins > morphometrics > Measure region properties` (menu, available as [plugin](https://www.napari-hub.org/plugins/morphometrics))
   * `Tools > Measurement > Label Statistics` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant))
   * `Tools > Measurement > Measurements` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
   * `Tools > Measurement > Regionprops` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-skimage-regionprops))
+
+* `Analyze > Plot Profile` (menu)
+  * `Tools > Measurement > Plot profile` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-plot-profile))
 
 * `Edit > Copy to system` (menu)
   * `File > Copy Screenshot to Clipboard` (menu)
@@ -29,7 +33,10 @@ The dictionary lists things alphabetically in this form as
 
 * `Image > Adjust > Threshold` (menu)
   * `Tools > Segmentation / Binarization > Threshold ... ` (menu, menu / button, available as [plugin 1](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant), [plugin 2](https://www.napari-hub.org/plugins/napari-skimage-regionprops), [plugin 3](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
-  * `Tools > Utilities > Assistant` `Binarize` (menu / button, available as [plugin 1](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant), [plugin 2](https://www.napari-hub.org/plugins/napari-skimage-regionprops), [plugin 3](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
+  * `Tools > Utilities > Assistant`, `Binarize` (menu / button, available as [plugin 1](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant), [plugin 2](https://www.napari-hub.org/plugins/napari-skimage-regionprops), [plugin 3](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
+
+* `Image > Color > Split Channels`
+  * `Right-click on layer list > Split RGB` (popup menu)   
 
 * `Image > Crop` (menu)
   * `Plugins > napari-nd-cropper: nd_ Cropper` (menu, availablee as [plugin](https://www.napari-hub.org/plugins/napari-nd-cropper))
@@ -37,9 +44,25 @@ The dictionary lists things alphabetically in this form as
   
 * `Image > Duplicate` (menu)
   * `(Right-click on Layer) > Duplicate Layer` (popup menu)
+  * `Tools > Utilties > Duplicate current timepoint` (https://www.napari-hub.org/plugins/napari-skimage-regionprops)
 
-* `Image > Stack > Stack to Hyperstack` (menu)
+* `Image > Stacks > Stack to Hyperstack` (menu)
   * `Tools > Utilities > Convert 3D stack to 2D timelapse` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-time-slicer))
+
+* `Image > Stacks > Tools > Reduce` (menu)
+  * `Tools > Utilities > Assistant`, `Projection` (menu / button, available as [plugin](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant))
+
+* `Image > Stacks > Plot Z-Axis-Profile` (menu)
+  *  `Plugins > napari-time-series-plotter: TSPExplorer` (menu, availablee as [plugin](https://www.napari-hub.org/plugins/napari-time-series-plotter))
+
+* `Image > Stacks > Z-Project` (menu)
+  * `Plugins > napari-math > ...` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-math))
+  * `Right-click on image layer > Make Projection > ...` (popup menu) 
+  * `Tools > Utilities > Assistant`, `Projection` (menu / button, available as [plugin](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant))
+
+* `Image > Transform > ...` (menu)
+  * `Plugins > napari-manual-transforms: Rotation Helper` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-manual-transforms))
+  * `Tools > Utilities > Assistant`, `Transform` (menu / button, available as [plugin](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant))
 
 * `Image > Properties` (menu)
   * `Tools > Utilities > Layer Details` (menu, availabla as [plugin](https://www.napari-hub.org/plugins/napari-layer-details-display))
@@ -65,6 +88,16 @@ The dictionary lists things alphabetically in this form as
   * `Plugins > napari-buds > bud annotation` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-buds))
   * `Tools > Segmentation / labeling > Object Segmentation` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-accelerated-pixel-and-object-classification))
 
+* `Process > Binary > Erode / Dilate / Open / Close` (menu)
+  * `Tools > Segmentation post-processing > Binary ...` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-cupy-image-processing))
+  * `Tools > Utilities > Assistant`, `Binarize` (menu / button, available as [plugin 1](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant), [plugin 2](https://www.napari-hub.org/plugins/napari-skimage-regionprops), [plugin 3](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
+
+* `Process > Binary > Fill holes` (menu)
+  * `Tools > Segmentation post-processing > Binary Fill Holes` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
+
+* `Process > Binary > Skeletonize` (menu)
+  * `Tools > Segmentation post-processing > Skeletonize` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes))
+
 * `Process > Binary > Watershed` (menu)
  * `Tools > Segmentation post-processing > Split touching objects` (menu, available as [plugin 1](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes))
  * `Tools > Segmentation / labeling > Touching objects labeling` (menu, [plugin 2](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing))
@@ -74,6 +107,17 @@ The dictionary lists things alphabetically in this form as
 
 * `Process > Filter > Median / 3D` (menu)
   * `Tools > Filtering / noise removal > Median` (menu, available as [plugin 1](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes),  [plugin 2](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing), [plugin 3](https://www.napari-hub.org/plugins/napari-cupy-image-processing))
+
+* `Process > Find Maxima...` (menu)
+  * `Plugins > napari-blob-detection > Detect blobs on images` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-blob-detection)) 
+
+* `Process > Find Edges...` (menu)
+  * `Tools > Filtering / edge enhancement > ...` (menu, available as [plugin 1](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes), [plugin 2](https://www.napari-hub.org/plugins/napari-simpleitk-image-processing), [plugin 3](https://www.napari-hub.org/plugins/napari-cupy-image-processing))
+
+* `Process > Image Calculator` (menu)
+  * `Plugins > napari-math > ...` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-math)) 
+  * `Tools > Image math > ... ` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes)  
+  * `Tools > Utilities > Assistant`, `Combine` (menu / button, available as [plugin](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant))
 
 * `Process > Subtract background` (menu)
   * `Tools > Filtering / background removal > Rolling ball` (menu, available as [plugin](https://www.napari-hub.org/plugins/napari-segment-blobs-and-things-with-membranes))
