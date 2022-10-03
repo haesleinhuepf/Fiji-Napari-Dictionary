@@ -1,6 +1,6 @@
 # Fiji-Napari-Dictionary
 
-This document contains translations of typical terms, menus and simple workflows in Fiji and their counterpartts in Napari together with links to documentation, plugins and example code. Feedback is welcome as [github issue](https://github.com/haesleinhuepf/FIJI-Napari-Dictionary/issues), [contributions and suggestions can be sent as pull-request](https://github.com/haesleinhuepf/FIJI-Napari-Dictionary/pulls).
+This document contains translations of typical terms, menus and simple workflows in Fiji and their counterparts in Napari together with links to documentation, plugins and example code. Feedback is welcome as [github issue](https://github.com/haesleinhuepf/FIJI-Napari-Dictionary/issues), [contributions and suggestions can be sent as pull-request](https://github.com/haesleinhuepf/FIJI-Napari-Dictionary/pulls).
 
 The dictionary lists things alphabetically in this form as
 
